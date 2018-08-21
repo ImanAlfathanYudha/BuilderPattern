@@ -13,4 +13,11 @@ public class MealBuilder {
 		meal.addItem(new Pepsi());
 		return meal;
 	}
+	
+	public Meal prepareAnotherMeal() {
+		Meal meal = new Meal();
+		meal.addItem(new BurgerLongJohn());	
+		meal.addItem(new Coke());
+		return meal;
+	}
 }
